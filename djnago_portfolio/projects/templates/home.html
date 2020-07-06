@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <h1>Welcome to My Project Portfolio</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="{% static 'projects/img/ROHAN_FAMILY_DAY.jpg' %}" alt="missing" width="100%">
+        </div>
+        <div class="col-md-4">
+            <h4>About the author:</h4>
+            <p>Rohan Mukund Miraje</p>
+            <p>Software developer</p>
+            <h5>Skills:</h5>
+            <p>Python developer, DSA, problem solving, multiprocessing, linux, django</p>
+        </div>
+    </div>
+
+{% endblock %}
